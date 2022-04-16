@@ -1,0 +1,320 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.api\\blog.api.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.api\\blog.api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.api\\blog.api.csproj",
+        "projectName": "blog.api",
+        "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.api\\blog.api.csproj",
+        "packagesPath": "C:\\Users\\musto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.api\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.business\\blog.business.csproj": {
+                "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.business\\blog.business.csproj"
+              },
+              "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\blog.data.csproj": {
+                "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\blog.data.csproj"
+              },
+              "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.root\\blog.root.csproj": {
+                "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.root\\blog.root.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.business\\blog.business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.business\\blog.business.csproj",
+        "projectName": "blog.business",
+        "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.business\\blog.business.csproj",
+        "packagesPath": "C:\\Users\\musto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\blog.data.csproj": {
+                "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\blog.data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\blog.data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\blog.data.csproj",
+        "projectName": "blog.data",
+        "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\blog.data.csproj",
+        "packagesPath": "C:\\Users\\musto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.root\\blog.root.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.root\\blog.root.csproj",
+        "projectName": "blog.root",
+        "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.root\\blog.root.csproj",
+        "packagesPath": "C:\\Users\\musto\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.root\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\musto\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.business\\blog.business.csproj": {
+                "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.business\\blog.business.csproj"
+              },
+              "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\blog.data.csproj": {
+                "projectPath": "C:\\Users\\musto\\OneDrive\\Masaüstü\\DESKTOP\\BLOG\\blog.data\\blog.data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
